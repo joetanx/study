@@ -14,6 +14,36 @@
 - **Time complexity:** How long does it take to find a solution? This can be measured in seconds, or more abstractly by the number of states and actions considered.
 - **Space complexity:** How much memory is needed to perform the search?
 
+#### Romania example from AIMA
+
+```mermaid
+graph
+
+Arad -->|75| Zerind
+Arad -->|118| Timisoara
+Arad -->|140| Sibiu
+Zerind -->|71| Oradea
+Oradea -->|151| Sibiu
+Timisoara -->|111| Lugoj
+Lugoj -->|70| Mehadia
+Mehadia -->|75| Drobeta
+Drobeta -->|120| Craiova
+Sibiu -->|80| RimnicuVilcea
+Sibiu -->|99| Fagaras
+RimnicuVilcea -->|146| Craiova
+RimnicuVilcea -->|97| Pitesti
+Craiova -->|138| Pitesti
+Fagaras -->|211| Bucharest
+Pitesti -->|101| Bucharest
+Bucharest -->|90| Giurgiu
+Bucharest -->|85| Urziceni
+Urziceni -->|142| Vaslui
+Urziceni -->|98| Hirsova
+Hirsova -->|86| Eforie
+Vaslui -->|92| Iasi
+Iasi -->|87| Neamt
+```
+
 ### 1.1. Uninformed Search
 
 |Criterion|Breath-First|Uniform-Cost|Depth-First|Depth-Limited|Iterative-Deepening|Bidirectional (if applicable)|
