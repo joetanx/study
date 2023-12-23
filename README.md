@@ -17,31 +17,31 @@
 #### Romania example from AIMA
 
 ```mermaid
-graph
+graph LR
 
 Arad -->|75| Zerind
-Arad -->|118| Timisoara
-Arad -->|140| Sibiu
 Zerind -->|71| Oradea
 Oradea -->|151| Sibiu
+Arad -->|140| Sibiu
+Sibiu -->|80| RimnicuVilcea
+RimnicuVilcea -->|97| Pitesti
+RimnicuVilcea -->|146| Craiova
+Craiova -->|138| Pitesti
+Arad -->|118| Timisoara
 Timisoara -->|111| Lugoj
 Lugoj -->|70| Mehadia
 Mehadia -->|75| Drobeta
 Drobeta -->|120| Craiova
-Sibiu -->|80| RimnicuVilcea
 Sibiu -->|99| Fagaras
-RimnicuVilcea -->|146| Craiova
-RimnicuVilcea -->|97| Pitesti
-Craiova -->|138| Pitesti
 Fagaras -->|211| Bucharest
 Pitesti -->|101| Bucharest
 Bucharest -->|90| Giurgiu
 Bucharest -->|85| Urziceni
 Urziceni -->|142| Vaslui
-Urziceni -->|98| Hirsova
-Hirsova -->|86| Eforie
 Vaslui -->|92| Iasi
 Iasi -->|87| Neamt
+Urziceni -->|98| Hirsova
+Hirsova -->|86| Eforie
 ```
 
 ### 1.1. Uninformed Search
