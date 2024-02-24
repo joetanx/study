@@ -108,6 +108,16 @@ Hirsova -->|86| Eforie
 
 #### 2.1.2. Propositional Logic
 
+Reading Materials: https://calcworkshop.com/logic/
+
+|Topic|Link|
+|---|---|
+|Propositional Logic|https://calcworkshop.com/logic/propositional-logic/|
+|Logical Implication|https://calcworkshop.com/logic/logical-implication/|
+|Logical Equivalence|https://calcworkshop.com/logic/logical-equivalence/|
+|Predicate Logic|https://calcworkshop.com/logic/predicate-logic/|
+|Rules of Inference|https://calcworkshop.com/logic/rules-inference/|
+
 ### 2.2. First-Order Logic
 
 ### 2.3. Inference in First-Order Logic
