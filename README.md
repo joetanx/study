@@ -108,7 +108,18 @@ Hirsova -->|86| Eforie
 
 #### 2.1.2. Propositional Logic
 
-Reading Materials: https://calcworkshop.com/logic/
+|Connective|Symbol|Statement|
+|---|---|---|
+|and|∧|Conjunction|
+|or|∨|Disjunction<br>(inclusive or)|
+|xor|⊕,⊻|Exclusive or|
+|not|~,¬|Negation|
+|if...then|→,⇒|Implication<br>(conditional statement)|
+|if and only if|↔,⟺|Biconditional|
+
+Reading materials: https://calcworkshop.com/logic/
+
+Truth table generator: https://web.stanford.edu/class/cs103/tools/truth-table-tool/
 
 |Topic|Link|
 |---|---|
