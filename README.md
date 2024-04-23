@@ -148,33 +148,66 @@ Truth table generator: https://web.stanford.edu/class/cs103/tools/truth-table-to
 ## 4. Machine Learning
 
 ### 4.1. Supervised Learning
-
-#### 4.1.1. Naive Bayes Classification
-
-#### 4.1.2. Linear Regression
-
-#### 4.1.3. Support Vector Machines
-
-#### 4.1.4. Decision Trees and Random Forests
+ - **Classification**:
+   - **Logistic Regression**: Predicts the probability that an instance belongs to a particular class using a logistic function.
+   - **Support Vector Machines (SVM)**: Finds the hyperplane that best separates classes in a high-dimensional space.
+   - **Decision Trees**: Builds a tree structure to classify instances based on feature values.
+   - **Random Forests**: Ensemble method that constructs multiple decision trees and combines their predictions.
+   - **Gradient Boosting Machines (GBM)**: Boosting ensemble technique that builds trees sequentially, each correcting errors of the previous one.
+   - **Neural Networks (Deep Learning)**: Learns complex patterns through interconnected layers of nodes, suitable for various tasks.
+   - **Naive Bayes Classification**: Based on Bayes' theorem, assumes that features are conditionally independent given the class, making it simple yet effective for text classification and other tasks.
+ - **Regression**:
+   - **Linear Regression**: Models the relationship between dependent and independent variables using a linear equation.
 
 ### 4.2. Unsupervised Learning
+- **Clustering**:
+  - **K-Means Clustering**: Divides data into k clusters by minimizing the sum of squared distances from each point to its assigned cluster centroid.
+  - **Hierarchical Clustering**: Builds a tree of clusters by recursively merging or splitting them.
+  - **Gaussian Mixture Models**: Represents data as a mixture of Gaussian distributions, useful for modeling complex data distributions.
+- **Dimensionality Reduction**:
+  - **Principal Component Analysis (PCA)**: Reduces dimensionality by finding orthogonal axes that capture the maximum variance in the data.
+  - **t-Distributed Stochastic Neighbor Embedding (t-SNE)**: Visualizes high-dimensional data by mapping it to a lower-dimensional space while preserving local structure.
+  - **Manifold Learning**: Learns the low-dimensional structure of high-dimensional data, preserving local relationships.
+- **Density Estimation**:
+  - **Kernel Density Estimation**: Estimates the probability density function of a random variable based on observed data points.
+- **Generative Models**:
+  - **Generative Adversarial Networks (GANs)**: Consists of a generator and a discriminator trained simultaneously to generate realistic data samples.
+  - **Self-Organizing Maps (SOMs)**: Organizes data points in a low-dimensional grid, preserving topological properties.
 
-#### 4.2.1. Principal Component Analysis
+### 4.3. Semi-Supervised Learning
+- **Label Propagation**: Propagates labels from labeled to unlabeled instances based on similarity in a graph representation.
+- **Self-Training**: Uses predictions on unlabeled data to iteratively train a model.
+- **Co-Training**: Trains multiple models on different subsets of features or views of the data and exchanges information between them.
+- **Tri-Training**: Extends co-training to three models for improved performance.
 
-#### 4.2.2. Manifold Learning
+### 4.4. Reinforcement Learning
+- **Value-based Methods**:
+  - **Q-Learning**: Learns an action-value function that maps states to the expected cumulative reward of taking an action.
+  - **Deep Q Networks (DQN)**: Combines Q-learning with deep neural networks to handle high-dimensional state spaces.
+- **Policy Gradient Methods**: Optimizes the policy directly by estimating gradients of expected rewards.
+- **Actor-Critic Methods**: Combines value-based and policy-based approaches to learn both the value function and the policy simultaneously.
 
-#### 4.2.3. k-Means Clustering
+### 4.5. Deep Learning
+- **Convolutional Neural Networks (CNNs)**: Specialized for grid-like data like images, using convolutional layers to extract hierarchical features.
+- **Recurrent Neural Networks (RNNs)**: Process sequential data by maintaining an internal state, suitable for tasks with temporal dependencies.
+- **Long Short-Term Memory (LSTM)**: A type of RNN designed to overcome the vanishing gradient problem and capture long-term dependencies.
+- **Transformer Models**: Utilize self-attention mechanisms to capture global dependencies in sequential data, achieving state-of-the-art results in natural language processing tasks.
 
-#### 4.2.4. Gaussian Mixture Models
-
-#### 4.2.5. Kernel Density Estimation
-
-## 5. Deep Learning
-
-### 5.1. Neural Networks
-
-### 5.2. Convolutional Neural Network
-
-### 5.3. Recurrent Neural Network
-
-## 6. Language
+## 5. Natural Language Processing 
+- **Statistical Language Models**: These models are based on statistical rules and include N-gram, Bidirectional, Exponential, and Continuous Space models. They are used for tasks such as information retrieval, speech generation, and machine learning.
+- **Neural Language Models**: These models are based on neural networks and are used for more complex tasks such as speech recognition and machine translation.
+- **N-Gram**: This model is based on the probability distribution of a sequence of 'n' words, where 'n' can be any number. It is used for tasks such as information retrieval and speech recognition.
+- **Bidirectional**: This model analyzes text in both directions, backwards and forwards, and is used for tasks such as machine learning and speech generation.
+- **Exponential**: This model uses a combination of n-grams and feature functions and is used for tasks such as machine translation and sentiment analysis.
+- **Continuous Space**: This model uses a non-linear combination of weights in a neural network and is used for tasks such as speech recognition and machine translation.
+- **Unigram**: This model evaluates each word or term independently and is used for tasks such as information retrieval.
+- **Language Translation**: This model is used for tasks such as machine translation and sentiment analysis.
+- **Text Suggestions**: This model is used for tasks such as text suggestions and sentiment analysis.
+- **Parsing Tools**: This model is used for tasks such as parsing and sentiment analysis.
+- **Text Classification**: This model is used for tasks such as spam detection, topic categorization, and sentiment analysis.
+- **Dialog Systems and Creative Writing**: This model is used for tasks such as generating human-like text and creative writing.
+- **Text Summarization**: This model is used for tasks such as automatic text summarization and sentiment analysis.
+- **Large Language Models (LLMs)**: These models are trained on vast amounts of text data and can generate human-like language outputs. Examples include:
+  - **Transformers**: Introduced in 2017, this model revolutionized the field of NLP. Examples include BERT, RoBERTa, and XLNet.
+  - **Generative Pre-trained Language Models (GPLMs)**: These models are trained on a large corpus of text and can generate text that is coherent and natural-sounding. Examples include GPT-1, GPT-2, and GPT-3.
+  - **Language Models with Attention**: These models use attention mechanisms to focus on specific parts of the input text when generating output. Examples include Longformer and BigBird.
